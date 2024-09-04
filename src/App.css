@@ -9,6 +9,14 @@
 .info {
   margin: 50px;
 }
+.button {
+  margin-top: 50px;
+  padding: 10px 20px;
+  transition: transform 0.3s ease-in-out;
+}
+.button:hover {
+  transform: scale(1.1);
+}
 @media (max-width: 800px) {
   .maintext {
     text-align: center !important;
