@@ -16,7 +16,9 @@ export default function NavigationTool() {
             <Nav.Link as={Link} to="/">
               Home
             </Nav.Link>
-            <Nav.Link href="#link">About Strolls</Nav.Link>
+            <Nav.Link as={Link} to="/More">
+              About Strolls
+            </Nav.Link>
             <Nav.Link href="#link">London</Nav.Link>
             <Nav.Link href="#link">Paris</Nav.Link>
             <Nav.Link href="#link">Exhibitions</Nav.Link>
