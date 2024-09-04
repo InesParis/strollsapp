@@ -1,11 +1,9 @@
 import React from "react";
 import Hero from "./Hero";
-import NavigationTool from "./navigation";
-import Footer from "./Footer";
+import "./more.css";
 export default function More() {
   return (
     <div>
-      <NavigationTool />
       <Hero />
       <p>
         Strolls is a multimedia exploration of urban identity, memory, and the
@@ -47,7 +45,6 @@ export default function More() {
         rhythms, and engage in a multi-sensory experience that challenges us to
         see the city not just as a place, but as a living, breathing presence.
       </p>
-      <Footer />
     </div>
   );
 }
