@@ -29,10 +29,10 @@ function App() {
                 recognising the profound influence it has on who we are.
                 <br />
                 <Router>
-                  <MyButton to="More" />
+                  <MyButton />
 
                   <Routes>
-                    <Route path="./more" element={<More />} />
+                    <Route path="More" element={<More />} />
                   </Routes>
                 </Router>
               </p>
