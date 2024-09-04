@@ -21,8 +21,14 @@
   .maintext {
     text-align: center !important;
     display: inline;
+    font-size: 17px;
   }
   .video {
     display: none;
+  }
+}
+@media (min-width: 800px) {
+  .video {
+    display: flex;
   }
 }

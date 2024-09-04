@@ -74,9 +74,7 @@ function Home() {
           </Row>
         </Container>
       </div>
-      <div>
-        <Footer />
-      </div>
+      <div></div>
     </div>
   );
 }
