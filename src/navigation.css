@@ -1,0 +1,15 @@
+.logo {
+  max-width: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.navbar-custom {
+  background-color: #ffffff;
+  font-family: "Rubik Glitch", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: black;
+  padding: 50px;
+}
