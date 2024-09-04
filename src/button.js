@@ -1,11 +1,11 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import "./button.css";
-export default function MyButton({ to }) {
+export default function MyButton() {
   return (
-    <a href={`More${to}`}>
+    <a href="/More" target="_blank" rel="noopener noreferrer">
       <Button variant="outline-light" className="button">
-        Learn More {to === "" ? "./more" : to}
+        Learn More
       </Button>
     </a>
   );

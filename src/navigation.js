@@ -6,20 +6,21 @@ import blacklogo from "./blacklogo.jpg";
 import "./navigation.css";
 export default function NavigationTool() {
   return (
-    <Navbar bg="light" data-bs-theme="light">
+    <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand
-          src={blacklogo}
-          href="#home"
-          alt="strollslogo"
-        ></Navbar.Brand>
-        <Nav className="me-auto">
-          <Nav.Link href="#home">Exhibitions</Nav.Link>
-          <Nav.Link href="#features">London</Nav.Link>
-          <Nav.Link href="#pricing">Paris</Nav.Link>
-          <Nav.Link href="#pricing">Future Cities</Nav.Link>
-          <Nav.Link href="#pricing">Contact</Nav.Link>
-        </Nav>
+        <Navbar.Brand src={blacklogo}></Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#link">About Strolls</Nav.Link>
+            <Nav.Link href="#link">London</Nav.Link>
+            <Nav.Link href="#link">Paris</Nav.Link>
+            <Nav.Link href="#link">Exhibitions</Nav.Link>
+            <Nav.Link href="#link">Future Cities</Nav.Link>
+            <Nav.Link href="#link">Contact</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
   );
