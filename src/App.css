@@ -1,34 +1,46 @@
+.navbar-custom {
+  position: fixed !important;
+  top: 0;
+  right: 0;
+  height: 100%; /* Full height sticky sidebar */
+  width: 300px; /* Adjust the width as needed */
+  z-index: 9999; /* Keep it above other elements */
+  background-color: #ebd91b; /* Optional: Set a background color */
+  display: flex;
+  align-items: center;
+}
+
+.navbar-content {
+  writing-mode: vertical-rl; /* Makes the text vertical */
+  text-orientation: mixed; /* Ensures characters are displayed in the correct direction */
+  margin-bottom: 20px; /* Adds space between each item */
+  font-size: 18px; /* Adjust text size as needed */
+  text-align: center; /* Centers the text horizontally */
+  cursor: pointer;
+  color: #000; /* Optional: Customize text color */
+  transition: color 0.3s;
+}
+
+.navbar-content:hover {
+  color: #007bff; /* Optional: Change color on hover */
+}
 .App {
-  background-color: black;
+  width: 100%;
+  height: 100%;
   font-family: "Press Start 2P";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: lighter;
+  background-color: rgb(50, 50, 50);
 }
-.maintext {
-  color: white;
-  font-size: 17px;
+
+.main {
+  color: aliceblue;
+  display: flex;
 }
-.info {
-  margin: 50px;
-}
-.button {
-  margin-top: 50px;
-  padding: 10px 20px;
-  transition: transform 0.3s ease-in-out;
-}
-.button:hover {
-  transform: scale(1.1);
-}
-@media (max-width: 800px) {
-  .maintext {
-    text-align: center !important;
-    display: inline;
-    font-size: 17px;
-  }
-  .video {
-    display: none;
-  }
-}
-@media (min-width: 800px) {
-  .video {
-    display: flex;
-  }
+.Brand {
+  margin-top: 100px;
+  margin-right: 900px;
+  color: aliceblue;
 }
